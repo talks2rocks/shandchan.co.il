@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   host: localhost
   username: yoelperlman 
-  database: shadchan.co.il-dev
+  database: shadchan-dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -11,10 +11,10 @@ test: &test
   adapter: postgresql
   host: localhost
   username: yoelperlman
-  database: shadchan.co.il-test
+  database: shadchan-test
 
 production:
   adapter: postgresql
   host: localhost
   username: yoelperlman
-  database: shadchan.co.il-production
+  database: shadchan-production
