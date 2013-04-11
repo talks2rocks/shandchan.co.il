@@ -1,10 +1,10 @@
 ShadchanCoIl::Application.routes.draw do
-  get "users/new"
 
   root to: 'static_pages#home'
   match "/about" => 'static_pages#about'
   match "/help" => 'static_pages#help'
-
+  match "/canvas/users/:id"  => 'users#show', via: :get
+  match "/canvas/" => 'static_pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
