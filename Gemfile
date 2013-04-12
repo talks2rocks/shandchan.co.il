@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'therubyracer', '0.11.4'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'pg', '0.12.2'
